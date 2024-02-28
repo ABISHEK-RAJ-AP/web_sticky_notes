@@ -28,4 +28,5 @@ This application is perfect for those who want a straightforward and aesthetical
 
 We are continuously improving and adding new features, so stay tuned for updates. Contributions, feedback, and bug reports are always welcome!
 
-Check out the live demo [here]([link-to-demo](https://abishekbalance.github.io/web_sticky_notes/)https://abishekbalance.github.io/web_sticky_notes/) 
+Check out the live demo 
+[](https://abishekbalance.github.io/web_sticky_notes/)
