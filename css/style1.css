@@ -1,0 +1,73 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background: #f0f2f5; /* Light grey background for a cleaner look */
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg {
+  background: linear-gradient(to right, #ffffff, #f0f2f5); /* Subtle gradient for background */
+}
+
+.toptx, .toptx2, .toptx1, .links, .logo2 {
+  color: #333; /* Dark grey for text for better readability and professionalism */
+}
+
+.toptx {
+  font-size: 2.5rem; /* Adjusted for a more balanced appearance */
+  font-weight: 600;   
+  font-family: 'Roboto', sans-serif;
+}
+
+.toptx1, .toptx2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.lgo1 {
+  color: #4CAF50; /* Subtle green for icons */
+}
+
+.links:hover, .lgo1:hover {
+  color: #0056b3; /* Slightly darker blue for hover effect */
+  text-decoration: none;
+}
+
+.txt-box, .btn {
+  background: #fff; /* White background for input and buttons */
+  border: 1px solid #ccc; /* Subtle borders for definition */
+  color: #333; /* Dark text for contrast */
+}
+
+.btn {
+  background-color: #007bff; /* Bootstrap primary blue for consistency */
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: darken(#007bff, 10%); /* Slightly darker on hover for interaction feedback */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .txt-box, .lgo1, .toptx {
+    margin: 0 auto; /* Centering elements on smaller screens */
+    font-size: 1rem; /* Adjusting font size for smaller screens */
+  }
+}
+
+/* Subtle animations for a polished feel */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+body {
+  animation: fadeIn 1s ease-out;
+}
+
+/* Improved layout and spacing for a cleaner look */
+.container, .text-center {
+  padding: 20px;
+  margin-top: 20px;
+}

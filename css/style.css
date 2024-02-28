@@ -1,0 +1,94 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+  
+  .bg {
+    background: linear-gradient(to right, #304352, #d7d2cc);
+  }
+  
+  .toptx, .toptx2, .toptx1, .links {
+    color: #DDF2FD;
+    transition: color 0.3s ease;
+  }
+  
+  .toptx {
+    font-size: xxx-large;
+    font-weight: 600;   
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .toptx1, .toptx2 {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .lgo1 {
+    color: lightgreen;
+    transition: transform 0.3s ease;
+  }
+  
+  .lgo1:hover {
+    transform: scale(1.1);
+  }
+  
+  .links:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .txt-box {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .txt-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+  
+  /* Responsive Design Adjustments */
+  @media (max-width: 768px) {
+    .txt-box, p, .b1 {
+      width: auto; /* Adjust based on specific needs */
+      margin-left: 0;
+    }
+  
+    .lgo1 {
+      margin-left: 50%; /* Center align the icon */
+      margin-top: -52px;
+    }
+    
+    .toptx {
+      font-size: large; /* Adjust text size for mobile */
+    }
+  }
+  
+  /* Animation for elements */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  [ao] {
+    animation: fadeInUp 0.5s ease-out forwards;
+    opacity: 0;
+  }
+  
+  [ao].animated {
+    opacity: 1;
+  }
+  
+  /* Apply animations */
+  .toptx, .toptx1, .toptx2, .txt-box, .btn, .links, .logo2 {
+    animation: fadeInUp 0.5s ease-out forwards;
+  }
+  
