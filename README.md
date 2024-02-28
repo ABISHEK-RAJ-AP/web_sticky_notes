@@ -23,8 +23,8 @@ This application is perfect for those who want a straightforward and aesthetical
 - JavaScript for interactive features
 
 ## Preview:
-![](preview1.png) 
-![](preview2.png) 
+![](preview1.jpg) 
+![](preview2.jpg) 
 
 We are continuously improving and adding new features, so stay tuned for updates. Contributions, feedback, and bug reports are always welcome!
 
